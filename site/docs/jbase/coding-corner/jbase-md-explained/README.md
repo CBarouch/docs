@@ -114,7 +114,9 @@ Executable (DUP!!):  /opt/jbase/CurrentVersion/bin/LIST
 jBC main() version 5.6 Thu Nov 30 14:17:41 2017
 ```
 
+## SELECT MD = "[BP]"
 
+Because jBASE has a close relationship to the Linux/Windows below it, looking for files is best accomplished by SELECT . = "[BP]" because the dot (".") means "current directory." SELECT MD = "[BP]" would still find Proc and Q-Pointers with BP in the name but it will not find the local files. That's why SELECT . is necessary.
 
 ## UpdateMD
 
