@@ -101,7 +101,9 @@ And  finally, some excellent advice from Kent Beck's book "Smalltalk Best  Pra
 
 •  Lots of little pieces: Good code invariably has small methods and small  objects. Only by factoring the system into many small pieces of state  and function can you hope to satisfy the "once and only once" rule. I  get lots of resistance to this idea, especially from experienced  developers, but no one thing I do to systems provides as much help as  breaking it into more pieces. When you are doing this, however, you must  always be certain that you communicate the big picture effectively.  Otherwise, you’ll find yourself in a big bowl of "Pasta à la Smalltalk",  which is every bit as nasty a dish as "Fettucine à la C".
 
-I  interpret this last point as: If you find that there is more than one  section of code doing the same thing, then refactor that out into a  subroutine or function.
+I  interpret this last point as: If you find that there is more than one section of code doing the same thing, then refactor that out into a  subroutine or function.
+
+On that same theme, the use of GOTO or GO diminishes readability and fails the test of small, clear pieces.
 
 \*\*\*
 
